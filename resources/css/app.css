@@ -7,6 +7,17 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+    --color-brand-50: #fef2f2;
+    --color-brand-100: #ffe1e1;
+    --color-brand-200: #ffb8b8;
+    --color-brand-500: #ff0000;
+    --color-brand-600: #e50000;
+    --color-brand-700: #cc0000;
+    --color-brand-800: #b20000;
+    --color-brand-900: #990000;
+}
+
 @theme inline {
     --font-sans:
         Instrument Sans, ui-sans-serif, system-ui, sans-serif,
